@@ -1,0 +1,47 @@
+@media(max-width: 1060px){
+
+    .team__container .team__row--box:nth-child(2){
+
+        display: none;
+
+    }
+
+    .team__container .team__row--box{
+
+        width: 400px;
+
+    }
+
+
+
+}
+
+@media(max-width: 960px){
+
+    .team__container .team__row--box:nth-child(3){
+
+        display: none;
+
+    }
+
+    .team__container .team__row--box{
+
+        width: 600px;
+
+        height: 450px;
+
+    }
+
+}
+
+@media(max-width: 600px){
+
+    .team__container .team__row--box{
+
+        width: 400px;
+
+        height: 300px;
+
+    }
+
+}

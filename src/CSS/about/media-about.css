@@ -1,0 +1,89 @@
+@media(max-width: 950px){
+
+    #about::after{
+
+        height: 50%;
+
+    }
+
+    .about__barbeiro img{
+
+        width: 90%;
+    
+    }
+
+}
+
+@media(max-width: 730px){
+
+    .about__barbeiro{
+
+        display: none;
+    
+    }
+
+    .about__conteudo{
+
+        width: 80%;
+
+        margin-top: 1rem;
+
+    }
+
+    #about::after{
+
+        background-color:#9051ff;
+
+    }
+
+    #about::before{
+
+        content: "";
+
+        width: 75%;    
+
+        height: 50%;
+
+        background-color: rgb(117, 116, 116);
+
+        position: absolute;
+
+        top: 0;
+
+        right: 0;
+
+        z-index: -1;
+
+    }
+
+    .about__conteudo .about__text{
+
+        color: white;
+
+    }
+
+}
+
+@media(min-width: 800px){
+
+    #about::after{
+
+        content: "";
+    
+        width: 25%;    
+    
+        height: 70%;
+    
+        background-color: rgb(245, 116, 137);
+    
+        position: absolute;
+    
+        top: 0;
+    
+        left: 0;
+    
+        z-index: -1;
+    
+    }
+
+}

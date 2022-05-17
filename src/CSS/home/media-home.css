@@ -1,0 +1,68 @@
+@media(max-width: 830px){
+
+    .home__container{
+
+        flex-direction: column;
+        
+        margin-top: 10rem;
+
+    }
+
+    .home__left{
+
+        width: 70%;
+
+    }
+
+    .home__left .typing{
+
+        font-size: 2rem;
+
+        
+
+    }
+
+    .home__left .home__texto{
+
+        font-size: 1.5rem;
+
+        
+    }
+
+    .home__rigth{
+
+        width: 70%;
+
+    }
+
+    .effect-6{
+
+        right: 2%;
+
+        bottom: 10%;
+
+
+    }
+
+    .effect-4{
+
+        left: 2%;
+
+        bottom: 25%;
+
+    }
+
+    .effect-7{
+
+        right: 20%;
+
+        top: 12%;
+
+
+    }
+
+    
+
+
+
+}
