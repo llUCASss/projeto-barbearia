@@ -42,9 +42,9 @@
 
         width: 75%;    
 
-        height: 50%;
+        height: 70%;
 
-        background-color: rgb(117, 116, 116);
+        background-color: var(--bg-black);
 
         position: absolute;
 
@@ -56,10 +56,69 @@
 
     }
 
+    #about::after{
+
+        content: "";
+    
+        width: 25%;    
+    
+        height: 70%;
+    
+        background-color: rgb(245, 116, 137);
+    
+        position: absolute;
+    
+        top: 0;
+    
+        left: 0;
+    
+        z-index: -1;
+    
+    }
+
     .about__conteudo .about__text{
 
         color: white;
 
+    }
+
+    .social{
+
+        margin-left: 8rem;
+
+
+    }
+
+    .social .social__item{
+    
+        width: 60px;
+    
+        height: 60px;
+
+        
+    
+    }
+
+    .social .social__item::after{
+
+
+        background-color: var(--bg-black);
+    
+    
+    }
+
+    .social .social__item::before{
+
+        content: "";
+    
+        position: absolute;
+    
+        inset: 30px;
+    
+        box-shadow: 0 0 0 10px var(--clr), 0 0 0 20px var(--bg-black), 0 0 0 22px var(--clr);
+    
+        transition: 0.5s;
+    
     }
 
 }
