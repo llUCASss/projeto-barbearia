@@ -1,0 +1,135 @@
+#app{
+
+    position: relative;
+
+    height: 100vh;
+
+    margin-top: 2rem;
+
+}
+
+.app__container{
+
+    display: flex;
+    
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+
+.app__title{
+
+    width: 100%;
+
+    text-align: center;
+
+    font-size: 2.2rem;
+
+    color: rgb(245, 116, 137);
+
+}
+
+
+.img1 img{
+
+    width: 250px;
+
+    margin-top: 2rem;
+
+}
+
+.img3 img{
+
+    width: 220px;
+
+    margin-top: 2rem;
+
+}
+
+.img2{
+
+    width: 400px;
+
+    height: 60rem;
+
+    background-image: url(../../IMG/celular.png);
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+
+}
+
+.celular--cabecalho{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding-top: 12rem;
+
+    color: #12334e;
+
+}
+
+.celular--cabecalho img{
+
+    width: 100px;
+
+    padding-right: 1rem;
+
+}
+
+.celular--time img{
+
+    width: 300px;
+
+}
+
+.celular--mensagem{
+
+    background-color: #222;
+
+    width: 332px;
+
+    margin-left: 3.2px;
+
+    height: 189px;
+
+    color: #fff;
+
+    display: flex;
+
+    align-items: center;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+}
+
+.celular--mensagem h2{
+
+    margin-bottom: 1rem;
+
+}
+
+.celular--mensagem .icons{
+
+    font-size: 40px;
+
+}

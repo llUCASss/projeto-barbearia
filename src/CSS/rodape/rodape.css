@@ -1,0 +1,254 @@
+#rodape{
+
+    margin-top: 10rem;
+
+    background-color: #222;
+
+}
+
+
+.rodape__container{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+}
+
+.rodape__row{
+
+    display: flex;
+
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+
+   
+
+    width: 100%;
+
+}
+
+.rodape__logo{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 100%;
+
+    margin-bottom: 2rem;
+
+    padding: 2rem;
+
+    border-top: 1px solid #222;
+
+}
+
+.rodape__logo img{
+
+    width: 100px;
+
+    margin-right: 1rem;
+
+}
+
+.rodape__logo h1{
+
+    font-size: 2rem;
+
+    color: #fff;
+
+}
+
+.rodape__nav{
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+    width: 200px;
+
+}
+
+.rodape__nav a{
+
+    text-decoration: none;
+
+    color: #fff;
+
+    font-size: 1.3rem;
+
+}
+
+.rodape__nav:nth-child(2) h1{
+
+    color: #0a73fcde;
+
+}
+
+.rodape__nav:nth-child(3) h1{
+
+    color: #f57489;
+
+}
+
+.rodape__nav:nth-child(4) h1{
+
+    color: #4f29cd;
+
+}
+
+
+.rodape__nav:nth-child(3) a:hover{
+
+    color: #f57489;
+
+}
+
+.rodape__nav:nth-child(4) a:hover{
+
+    color: #4f29cd;
+
+}
+
+.rodape__nav:nth-child(2) a:hover{
+
+    color: #0a73fcde;
+
+}
+
+.rodape__social{
+
+    width: 150px;
+
+}
+
+.rodape__social a{
+
+    margin-left: 0.2rem;
+
+}
+
+.rodape__social .rodape__link{
+
+    font-size: 30px;
+
+}
+
+.rodape__social .rodape__link:nth-child(1){
+
+    color: #1877f2;
+
+}
+
+.rodape__social .rodape__link:nth-child(2){
+
+    color: #c32aa3;
+
+}
+
+.rodape__social .rodape__link:nth-child(3){
+
+    color: #1da1f2;
+
+}
+
+.rodape__social .rodape__link:nth-child(4){
+
+    color: #ff0000;
+
+}
+
+.rodape__btn{
+
+    margin-top: 1rem;
+
+}
+
+.rodape__btn{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+.rodape__btn a{
+
+    position: relative;
+
+    width: 300px;
+
+    height: 75px;
+
+    margin: 10px 0;
+
+    font-size: 24px;
+
+    color: #fff;
+
+    display: inline-flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-weight: bolder;
+
+    transition: 0.5s;
+
+    text-decoration: none;
+
+}
+
+
+.rodape__btn a::before{
+
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background: url(../../IMG/btn-bg2.png);
+
+    background-size: cover;
+
+    transform-origin: left;
+
+    transition: 0.5s;
+
+}
+
+
+
+
+
+.rodape__btn a span{
+
+    position: relative;
+
+    z-index: 1;
+
+}
