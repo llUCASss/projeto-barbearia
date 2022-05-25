@@ -117,6 +117,8 @@
 
     pointer-events: none;
 
+
+
 }
 
 .planos__container .card .box .content h1{
@@ -135,6 +137,8 @@
 
     transition: 0.5s;
 
+    margin-bottom: 1rem;
+
 }
 
 .planos__container .card .box .content p{
@@ -148,6 +152,16 @@
     z-index: 1;
 
     transition: 0.5s;
+
+    margin-bottom: 1rem;
+
+}
+
+.planos__container .card .box .content p strong{
+
+    font-size: 1.6rem;
+
+    color: #f57489;
 
 }
 

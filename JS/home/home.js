@@ -1,6 +1,6 @@
 var typed = new Typed(".typing",{
 
-    strings:["Deixe seu cabelo falar.", "Corte com os melhores."],
+    strings:["Deixe seu cabelo falar.", "Corte com os melhores.", "Os melhores da região", "O estilo é você"],
     typeSpeed:100,
     backSpeed:60,
     loop:true
@@ -8,12 +8,3 @@ var typed = new Typed(".typing",{
 
 });
 
-var typed2 = new Typed(".typing2",{
-
-    strings:["Hello Word"],
-    typeSpeed:100,
-    backSpeed:60,
-    loop:false
-
-
-});
